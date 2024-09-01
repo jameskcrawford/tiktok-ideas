@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TikTok Idea Generator</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <h1>TikTok Idea Generator</h1>
+        <p class="tagline">Viral Ideas, Instant Sales: Your TikTok Shop for Creator Companion</p>
+        
+        <div class="input-group">
+            <select id="productCategory">
+                <option value="">Select Product Category</option>
+            </select>
+            
+            <select id="creativeFormat">
+                <option value="">Select Creative Format</option>
+            </select>
+        </div>
+        
+        <button id="generateIdea">Generate Idea</button>
+        
+        <div id="ideaDisplay" class="hidden">
+            <h2>Your TikTok Idea:</h2>
+            <pre id="generatedIdea"></pre>
+        </div>
+        
+        <div class="trends">
+            <h3>Current TikTok Trends</h3>
+            <ul id="trendList"></ul>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>'
